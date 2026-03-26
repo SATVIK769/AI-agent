@@ -4,7 +4,7 @@ import {UserDataContext} from './UserDataContext'
 
 
 function UserContext({ children }) {
-  const serverUrl = "http://localhost:5000"
+  const serverUrl = "https://ai-agent-backend-d5c6.onrender.com"
   const [userData, setUserData] = useState(null)
   const [frontendImage, setFrontendImage] = useState(null)
   const [backendImage, setBackendImage] = useState(null)
