@@ -10,7 +10,7 @@ import userRouter from "./routes/user.routes.js"
 
 const app=express()
 app.use(cors({
-    origin:"https://ai-agent-69nx.onrender.com",
+    origin:"https://ai-notes-generatorclient.onrender.com",
     credentials: true
 }))
 
